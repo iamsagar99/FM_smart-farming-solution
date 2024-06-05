@@ -1,0 +1,188 @@
+.
+├── README.md
+├── data
+|   ├── filestructure.txt
+│   ├── CAF_Sensor_Dataset_2
+│   │   ├── CAF_Bt_120cm.tif
+│   │   ├── CAF_Bt_150cm.tif
+│   │   ├── CAF_Bt_30cm.tif
+│   │   ├── CAF_Bt_60cm.tif
+│   │   ├── CAF_Bt_90cm.tif
+│   │   ├── CAF_BulkDensity.txt
+│   │   ├── CAF_CropCodes.txt
+│   │   ├── CAF_CropID.txt
+│   │   ├── CAF_DEM.tif
+│   │   ├── CAF_Fall_ECa.tif
+│   │   ├── CAF_ParticleSize.txt
+│   │   ├── CAF_Spring_ECa.tif
+│   │   ├── CAF_sensors.dbf
+│   │   ├── CAF_sensors.prj
+│   │   ├── CAF_sensors.sbn
+│   │   ├── CAF_sensors.sbx
+│   │   ├── CAF_sensors.shp
+│   │   ├── CAF_sensors.shp.xml
+│   │   ├── CAF_sensors.shx
+│   │   ├── CAF_strips.cpg
+│   │   ├── CAF_strips.dbf
+│   │   ├── CAF_strips.prj
+│   │   ├── CAF_strips.sbn
+│   │   ├── CAF_strips.sbx
+│   │   ├── CAF_strips.shp
+│   │   ├── CAF_strips.shp.xml
+│   │   ├── CAF_strips.shx
+│   │   ├── QC
+│   │   │   ├── CAF_sensor_version.txt
+│   │   │   ├── Code Snippet.txt
+│   │   │   ├── Flags
+│   │   │   │   ├── breaksVW_120.txt
+│   │   │   │   ├── breaksVW_150.txt
+│   │   │   │   ├── breaksVW_30.txt
+│   │   │   │   ├── breaksVW_60.txt
+│   │   │   │   ├── breaksVW_90.txt
+│   │   │   │   ├── flatsT_120.txt
+│   │   │   │   ├── flatsT_150.txt
+│   │   │   │   ├── flatsT_30.txt
+│   │   │   │   ├── flatsT_60.txt
+│   │   │   │   ├── flatsT_90.txt
+│   │   │   │   ├── flatsVW_120.txt
+│   │   │   │   ├── flatsVW_150.txt
+│   │   │   │   ├── flatsVW_30.txt
+│   │   │   │   ├── flatsVW_60.txt
+│   │   │   │   ├── flatsVW_90.txt
+│   │   │   │   ├── missingT_120.txt
+│   │   │   │   ├── missingT_150.txt
+│   │   │   │   ├── missingT_30.txt
+│   │   │   │   ├── missingT_60.txt
+│   │   │   │   ├── missingT_90.txt
+│   │   │   │   ├── missingVW_120.txt
+│   │   │   │   ├── missingVW_150.txt
+│   │   │   │   ├── missingVW_30.txt
+│   │   │   │   ├── missingVW_60.txt
+│   │   │   │   ├── missingVW_90.txt
+│   │   │   │   ├── rangeT_120.txt
+│   │   │   │   ├── rangeT_150.txt
+│   │   │   │   ├── rangeT_30.txt
+│   │   │   │   ├── rangeT_60.txt
+│   │   │   │   ├── rangeT_90.txt
+│   │   │   │   ├── rangeVW_120.txt
+│   │   │   │   ├── rangeVW_150.txt
+│   │   │   │   ├── rangeVW_30.txt
+│   │   │   │   ├── rangeVW_60.txt
+│   │   │   │   ├── rangeVW_90.txt
+│   │   │   │   ├── spikesVW_120.txt
+│   │   │   │   ├── spikesVW_150.txt
+│   │   │   │   ├── spikesVW_30.txt
+│   │   │   │   ├── spikesVW_60.txt
+│   │   │   │   └── spikesVW_90.txt
+│   │   │   └── README.txt
+│   │   ├── caf_sensors
+│   │   │   ├── Daily
+│   │   │   │   ├── CAF003.txt
+│   │   │   │   ├── CAF007.txt
+│   │   │   │   ├── CAF009.txt
+│   │   │   │   ├── CAF019.txt
+│   │   │   │   ├── CAF031.txt
+│   │   │   │   ├── CAF033.txt
+│   │   │   │   ├── CAF035.txt
+│   │   │   │   ├── CAF061.txt
+│   │   │   │   ├── CAF067.txt
+│   │   │   │   ├── CAF075.txt
+│   │   │   │   ├── CAF079.txt
+│   │   │   │   ├── CAF095.txt
+│   │   │   │   ├── CAF119.txt
+│   │   │   │   ├── CAF125.txt
+│   │   │   │   ├── CAF129.txt
+│   │   │   │   ├── CAF133.txt
+│   │   │   │   ├── CAF135.txt
+│   │   │   │   ├── CAF139.txt
+│   │   │   │   ├── CAF141.txt
+│   │   │   │   ├── CAF163.txt
+│   │   │   │   ├── CAF173.txt
+│   │   │   │   ├── CAF197.txt
+│   │   │   │   ├── CAF201.txt
+│   │   │   │   ├── CAF205.txt
+│   │   │   │   ├── CAF209.txt
+│   │   │   │   ├── CAF215.txt
+│   │   │   │   ├── CAF217.txt
+│   │   │   │   ├── CAF231.txt
+│   │   │   │   ├── CAF237.txt
+│   │   │   │   ├── CAF245.txt
+│   │   │   │   ├── CAF275.txt
+│   │   │   │   ├── CAF308.txt
+│   │   │   │   ├── CAF310.txt
+│   │   │   │   ├── CAF312.txt
+│   │   │   │   ├── CAF314.txt
+│   │   │   │   ├── CAF316.txt
+│   │   │   │   ├── CAF349.txt
+│   │   │   │   ├── CAF351.txt
+│   │   │   │   ├── CAF357.txt
+│   │   │   │   ├── CAF377.txt
+│   │   │   │   ├── CAF397.txt
+│   │   │   │   └── CAF401.txt
+│   │   │   └── Hourly
+│   │   │       ├── CAF003.txt
+│   │   │       ├── CAF007.txt
+│   │   │       ├── CAF009.txt
+│   │   │       ├── CAF019.txt
+│   │   │       ├── CAF031.txt
+│   │   │       ├── CAF033.txt
+│   │   │       ├── CAF035.txt
+│   │   │       ├── CAF061.txt
+│   │   │       ├── CAF067.txt
+│   │   │       ├── CAF075.txt
+│   │   │       ├── CAF079.txt
+│   │   │       ├── CAF095.txt
+│   │   │       ├── CAF119.txt
+│   │   │       ├── CAF125.txt
+│   │   │       ├── CAF129.txt
+│   │   │       ├── CAF133.txt
+│   │   │       ├── CAF135.txt
+│   │   │       ├── CAF139.txt
+│   │   │       ├── CAF141.txt
+│   │   │       ├── CAF163.txt
+│   │   │       ├── CAF173.txt
+│   │   │       ├── CAF197.txt
+│   │   │       ├── CAF201.txt
+│   │   │       ├── CAF205.txt
+│   │   │       ├── CAF209.txt
+│   │   │       ├── CAF215.txt
+│   │   │       ├── CAF217.txt
+│   │   │       ├── CAF231.txt
+│   │   │       ├── CAF237.txt
+│   │   │       ├── CAF245.txt
+│   │   │       ├── CAF275.txt
+│   │   │       ├── CAF308.txt
+│   │   │       ├── CAF310.txt
+│   │   │       ├── CAF312.txt
+│   │   │       ├── CAF314.txt
+│   │   │       ├── CAF316.txt
+│   │   │       ├── CAF349.txt
+│   │   │       ├── CAF351.txt
+│   │   │       ├── CAF357.txt
+│   │   │       ├── CAF377.txt
+│   │   │       ├── CAF397.txt
+│   │   │       └── CAF401.txt
+│   │   └── readme.txt
+│   └── HS_zip
+│       ├── F105_01_15_2014_HS_data.csv
+│       ├── F105_01_22_2014_HS_data.csv
+│       ├── F105_01_28_2014_HS_data.csv
+│       ├── F105_02_04_2014_HS_data.csv
+│       ├── F105_02_12_2014_HS_data.csv
+│       ├── F105_02_18_2014_HS_data.csv
+│       ├── F105_02_25_2014_HS_data.csv
+│       ├── F105_03_06_2014_HS_data.csv
+│       ├── F105_03_11_2014_HS_data.csv
+│       ├── F105_03_18_2014_HS_data.csv
+│       ├── F105_03_26_2014_HS_data.csv
+│       ├── F105_04_01_2014_HS_data.csv
+│       ├── F105_04_08_2014_HS_data.csv
+│       ├── F105_04_16_2014_HS_data.csv
+│       └── F105_04_21_2014_HS_data.csv
+├── ideas-workbook
+│   └── soil-moisture-prediction.md
+├── intermediate-deliverables
+└── src
+    └── eda_soil_moisture_data.ipynb
+
+13 directories, 175 files

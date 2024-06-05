@@ -1,0 +1,27 @@
+# Ignore all .log files
+*.log
+
+# Ignore a specific file
+config/settings.json
+
+# Ignore a specific folder
+logs/
+
+# Ignore nested folder
+temp/cache/
+
+# Ignore all node_modules directories
+node_modules/
+
+# Ignore all .DS_Store files
+*.DS_Store
+
+# Ignore everything in temp directory except important.txt
+temp/*
+!temp/important.txt
+
+formeOnly/
+
+data/CAF_Sensor_Dataset_2/
+
+data/HS_zip/
