@@ -60,6 +60,6 @@
   - Develop an intuitive user interface for farmers to interact with the system.
   - Provide actionable insights and recommendations based on model predictions.
 
-### 8. Conclusion
+### 7. Conclusion
 - **Summary**:
   - The soil moisture prediction model leverages comprehensive sensor data to provide accurate soil moisture forecasts.
