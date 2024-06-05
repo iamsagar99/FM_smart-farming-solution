@@ -24,7 +24,7 @@ The agricultural sector faces significant challenges, including water scarcity, 
 - Spatial data for locations
 
 **Assessment**: **Pass**  
-The dataset provides comprehensive soil moisture and temperature data across multiple locations and depths, making it suitable for developing predictive models.
+The dataset has detailed soil moisture and temperature data across multiple locations and depths, making it suitable for developing predictive models.
 
 ### 2. Crop Health Monitoring
 **Objective**: Create a system to monitor crop health using soil and environmental data.
@@ -43,25 +43,9 @@ The dataset provides comprehensive soil moisture and temperature data across mul
 - Spatial data (location coordinates and crop extents)
 
 **Assessment**: **Pass**  
-The dataset includes necessary soil parameters and crop identification data, enabling the development of a crop health monitoring system.
+The dataset includes necessary soil parameters and crop identification data, it helps on the development of a crop health monitoring system.
 
-### 3. Irrigation Management System
-**Objective**: Design an AI-based irrigation management system that optimizes water usage.
-
-**Required Features**:
-- Soil moisture levels at different depths
-- Soil temperature
-- Historical irrigation data (if available)
-- Weather data (if integrated from external sources)
-
-**Dataset Features**:
-- Soil moisture and temperature data
-- Temporal data (hourly and daily)
-
-**Assessment**: **Pass**  
-The dataset provides detailed soil moisture and temperature data, which are critical for developing an irrigation management system. Historical irrigation data and weather data could be integrated from external sources.
-
-### 4. Soil Property Mapping
+### 3. Soil Property Mapping
 **Objective**: Map soil properties such as bulk density, particle size, and electrical conductivity.
 
 **Required Features**:
@@ -79,25 +63,7 @@ The dataset provides detailed soil moisture and temperature data, which are crit
 **Assessment**: **Pass**  
 The dataset contains all necessary soil properties and spatial data, making it suitable for soil property mapping.
 
-### 5. Crop Yield Prediction
-**Objective**: Predict crop yields based on historical data and current growing conditions.
-
-**Required Features**:
-- Soil moisture levels
-- Soil temperature
-- Crop types and codes
-- Historical yield data (if available)
-- Weather data (if integrated from external sources)
-
-**Dataset Features**:
-- Soil moisture and temperature data
-- Crop identification data (CAF_CropID.txt)
-- Historical yield data not explicitly provided but could be inferred from crop codes and other parameters.
-
-**Assessment**: **Pass**  
-While explicit historical yield data is not provided, the available crop and soil data can support yield prediction models. Integration of weather data and additional yield records from external sources would enhance the model.
-
-### 6. Phenotyping and Plant Health Assessment
+### 4. Phenotyping and Plant Health Assessment
 **Objective**: Assess plant health using proximal sensing data.
 
 **Required Features**:
@@ -114,7 +80,7 @@ While explicit historical yield data is not provided, the available crop and soi
 **Assessment**: **Pass**  
 The dataset includes relevant soil and crop canopy data, enabling phenotyping and plant health assessment.
 
-### 7. Nitrogen Management Optimization
+### 5. Nitrogen Management Optimization
 **Objective**: Optimize nitrogen usage for different irrigation treatments.
 
 **Required Features**:
@@ -138,25 +104,22 @@ The dataset provides soil parameters, crop data, and nitrogen management informa
 
 The proposed precision farming system will integrate the above applications into a unified platform. The architecture will consist of the following components:
 
-1. **Data Ingestion**: Collect and preprocess data from soil sensors, crop records, and external sources (weather, irrigation records).
+1. **Data Ingestion**: Collect and preprocess data from soil sensors, crop records, and external sources (weather, irrigation records) if deployed for real time usecase.
 2. **Data Storage**: Use a relational database to store and manage sensor data, crop data, and spatial data.
 3. **Machine Learning Models**:
    - Soil Moisture Prediction Model
    - Crop Health Monitoring Model
-   - Irrigation Management System
    - Soil Property Mapping Tool
-   - Crop Yield Prediction Model
    - Phenotyping and Plant Health Assessment Tool
    - Nitrogen Management Optimization Model
 4. **User Interface**: Develop a web-based dashboard for farmers to access insights and recommendations.
-5. **API Integration**: Integrate with external weather data sources and irrigation systems for real-time data.
 
 ### Workflow
 
 1. **Data Collection**: Continuously collect soil and crop data from sensors and external sources.
 2. **Data Processing**: Clean and preprocess data to ensure accuracy and consistency.
 3. **Model Training**: Train machine learning models using historical data and validate their performance.
-4. **Real-Time Analysis**: Use trained models to provide real-time predictions and recommendations.
+4. **Real-Time Analysis**: Use trained models to provide real-time predictions and recommendations. (if deployed)
 5. **User Interaction**: Display insights and recommendations on the dashboard, allowing farmers to make informed decisions.
 
 ### Implementation Steps
