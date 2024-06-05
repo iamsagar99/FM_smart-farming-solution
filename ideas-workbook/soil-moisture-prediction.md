@@ -12,7 +12,7 @@
   - **CAF_ParticleSize.txt**: Contains particle size fractions (sand, silt, clay) for each location at sensor depths.
 
 - **Data Extraction**:
-  - Extract VW and temperature readings from the 42 `.txt` files in the `CAF_sensors` folder.
+  - Extract VW and temperature readings from the `.txt` files in the `CAF_sensors` folder.
   - Extract bulk density and particle size data from their respective files.
 
 - **Data Preprocessing**:
@@ -36,7 +36,7 @@
 
 ### 4. Model Development
 - **Model Selection**:
-  - **Time-Series Models**: Use models suitable for time-series prediction, such as Long Short-Term Memory (LSTM) networks, Recurrent Neural Networks (RNN), or ARIMA models.
+  - **Time-Series Models**: Use models suitable for time-series prediction, such as Long Short-Term Memory (LSTM) networks, Recurrent Neural Networks (RNN), or ARIMA models         whichever fits best.
 
 - **Training and Validation**:
   - **Training Data**: Use historical soil moisture and temperature data to train the model.
@@ -60,20 +60,6 @@
   - Develop an intuitive user interface for farmers to interact with the system.
   - Provide actionable insights and recommendations based on model predictions.
 
-### 7. Evaluation and Improvement
-- **Field Testing**:
-  - Conduct field tests to validate model predictions and gather feedback from users.
-
-- **Continuous Improvement**:
-  - Use user feedback and field test results to continuously improve the model and system.
-  - Update the model and system based on the latest research and technological advancements.
-
 ### 8. Conclusion
 - **Summary**:
   - The soil moisture prediction model leverages comprehensive sensor data to provide accurate soil moisture forecasts.
- 
-- **Future Work**:
-  - Explore integration with additional data sources such as weather forecasts and satellite imagery.
-  - Expand the system to include other aspects of precision farming, such as nutrient management and pest detection.
-
-This outline provides a detailed approach to developing a soil moisture prediction system using the provided dataset. The steps include data collection, preprocessing, feature engineering, model development ensuring a robust and practical solution for precision farming.
